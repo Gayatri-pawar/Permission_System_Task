@@ -1,5 +1,5 @@
-// permissions.js
-export const rolePermissions = {
+
+export const RolePermissions = {
     admin: {
       Admin_dashboard: true,
       settings: true,
