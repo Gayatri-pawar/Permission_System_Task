@@ -1,5 +1,5 @@
 import React from "react";
-import { rolePermissions } from "./rolePermissions";
+import  RolePermissions  from "./RolePermissions";
 import AdminDashboard from "./AdminDashboard";
 import ManagerDashboard from "./ManagerDashboard";
 import AgentDashboard from "./AgentDashboard";
@@ -7,7 +7,7 @@ import SellerDashboard from "./SellerDashboard";
 import BuyerDashboard from "./BuyerDashboard";
 
 const Home = ({ userName, onLogout, userRole }) => {
-  const permissions = rolePermissions[userRole] || {};
+  const permissions = RolePermissions[userRole] || {};
 
   const renderDashboardComponent = () => {
     switch (userRole) {
