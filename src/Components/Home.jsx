@@ -1,5 +1,6 @@
 import React from "react";
-import  RolePermissions  from "./RolePermissions";
+import { RolePermissions } from "./RolePermissions";
+
 import AdminDashboard from "./AdminDashboard";
 import ManagerDashboard from "./ManagerDashboard";
 import AgentDashboard from "./AgentDashboard";
